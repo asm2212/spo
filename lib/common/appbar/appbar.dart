@@ -1,26 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:spo/common/helpers/is_dark_mode.dart';
 
-class BasicAppbar extends StatelessWidget {
-  const BasicAppbar({super.key});
+
+class BasicAppbar extends StatelessWidget implements PreferredSizeWidget {
+   final Widget ? title;
+  const BasicAppbar({
+     this.title,
+    super.key
+  });
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: Colors.transparent,
+      backgroundColor:  Colors.transparent,
       elevation: 0,
-      leading: IconButton(
-        onPressed: () {
+      centerTitle: true,
+      title: title ?? const Text(''),
+      leading:  IconButton(
+        onPressed: (){
           Navigator.pop(context);
         },
         icon: Container(
           height: 50,
           width: 50,
           decoration: BoxDecoration(
-            color: context.isDarkMode
-                ? Colors.white.withOpacity(0.03)
-                : Colors.black.withOpacity(0.04),
-            shape: BoxShape.circle,
+            color: context.isDarkMode ? Colors.white.withOpacity(0.03) : Colors.black.withOpacity(0.04),
+            shape: BoxShape.circle
           ),
           child: Icon(
             Icons.arrow_back_ios_new,
@@ -31,4 +36,7 @@ class BasicAppbar extends StatelessWidget {
       ),
     );
   }
+  
+  @override
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
