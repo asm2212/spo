@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spo/core/configs/theme/app_colors.dart';
-
+import 'package:spotify/core/configs/theme/app_colors.dart';
 
 class AppTheme {
 
@@ -54,7 +53,7 @@ class AppTheme {
     fontFamily: 'Satoshi',
     sliderTheme: SliderThemeData(
       overlayShape: SliderComponentShape.noOverlay,
-      activeTrackColor:  Color(0xffB7B7B7),
+      activeTrackColor: Color(0xffB7B7B7),
       inactiveTrackColor: Colors.grey.withOpacity(0.3),
       thumbColor: Color(0xffB7B7B7)
       

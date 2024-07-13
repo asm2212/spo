@@ -1,22 +1,30 @@
 import 'package:flutter/material.dart';
-import 'package:spo/common/helpers/is_dark_mode.dart';
-
+import 'package:spotify/common/helpers/is_dark_mode.dart';
 
 class BasicAppbar extends StatelessWidget implements PreferredSizeWidget {
-   final Widget ? title;
+  final Widget ? title;
+  final Widget ? action;
+  final Color ? backgroundColor;
+  final bool hideBack;
   const BasicAppbar({
-     this.title,
+    this.title,
+    this.hideBack = false,
+    this.action,
+    this.backgroundColor ,
     super.key
   });
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor:  Colors.transparent,
+      backgroundColor: backgroundColor ?? Colors.transparent,
       elevation: 0,
       centerTitle: true,
       title: title ?? const Text(''),
-      leading:  IconButton(
+      actions: [
+        action ?? Container()
+      ],
+      leading: hideBack ? null : IconButton(
         onPressed: (){
           Navigator.pop(context);
         },
