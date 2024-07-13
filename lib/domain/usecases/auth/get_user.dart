@@ -1,8 +1,9 @@
-import 'package:dartz/dartz.dart';
-import 'package:spotify/core/usecase/usecase.dart';
-import 'package:spotify/domain/repository/auth/auth.dart';
 
-import '../../../service_locator.dart';
+
+import 'package:dartz/dartz.dart';
+import 'package:spo/core/usecase/usecase.dart';
+import 'package:spo/domain/repository/auth/auth.dart';
+import 'package:spo/service_locator.dart';
 
 class GetUserUseCase implements UseCase<Either,dynamic> {
   @override
