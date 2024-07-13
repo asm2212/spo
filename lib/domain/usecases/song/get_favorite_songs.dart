@@ -1,8 +1,9 @@
-import 'package:dartz/dartz.dart';
-import 'package:spotify/core/usecase/usecase.dart';
 
-import '../../../service_locator.dart';
-import '../../repository/song/song.dart';
+
+import 'package:dartz/dartz.dart';
+import 'package:spo/core/usecase/usecase.dart';
+import 'package:spo/domain/repository/song/song.dart';
+import 'package:spo/service_locator.dart';
 
 class GetFavoriteSongsUseCase implements UseCase<Either,dynamic> {
 
