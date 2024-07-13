@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:spotify/common/helpers/is_dark_mode.dart';
-import 'package:spotify/common/widgets/appbar/app_bar.dart';
-import 'package:spotify/presentation/profile/bloc/favorite_songs_cubit.dart';
-import 'package:spotify/presentation/profile/bloc/favorite_songs_state.dart';
-import 'package:spotify/presentation/profile/bloc/profile_info_cubit.dart';
-import 'package:spotify/presentation/song_player/pages/song_player.dart';
+import 'package:spo/common/helpers/is_dark_mode.dart';
+import 'package:spo/common/widgets/appbar/app_bar.dart';
+import 'package:spo/common/widgets/favorite_button/favorite_button.dart';
+import 'package:spo/core/configs/constants/app_urls.dart';
+import 'package:spo/presentation/profile/bloc/favorite_songs_cubit.dart';
+import 'package:spo/presentation/profile/bloc/favorite_songs_state.dart';
+import 'package:spo/presentation/profile/bloc/profile_info_cubit.dart';
+import 'package:spo/presentation/profile/bloc/profile_info_state.dart';
+import 'package:spo/presentation/song_player/pages/song_player.dart';
 
-import '../../../common/widgets/favorite_button/favorite_button.dart';
-import '../../../core/configs/constants/app_urls.dart';
-import '../bloc/profile_info_state.dart';
+
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
