@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spotify/core/configs/theme/app_colors.dart';
+import 'package:spo/core/configs/theme/app_colors.dart';
 
 class AppTheme {
 

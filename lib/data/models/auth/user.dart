@@ -1,4 +1,6 @@
-import 'package:spotify/domain/entities/auth/user.dart';
+
+
+import 'package:spo/domain/entities/auth/user.dart';
 
 class UserModel {
 
