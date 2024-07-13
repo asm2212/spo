@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:spotify/common/widgets/appbar/app_bar.dart';
-import 'package:spotify/common/widgets/button/basic_app_button.dart';
-import 'package:spotify/core/configs/assets/app_vectors.dart';
-import 'package:spotify/data/models/auth/create_user_req.dart';
-import 'package:spotify/domain/usecases/auth/signup.dart';
-import 'package:spotify/presentation/auth/pages/signin.dart';
-import 'package:spotify/presentation/home/pages/home.dart';
-import 'package:spotify/service_locator.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:spo/common/widgets/appbar/app_bar.dart';
+import 'package:spo/common/widgets/button/basic_app_button.dart';
+import 'package:spo/core/configs/assets/app_vectors.dart';
+import 'package:spo/data/models/auth/create_user_req.dart';
+import 'package:spo/domain/usecases/auth/signup.dart';
+import 'package:spo/presentation/auth/pages/signin.dart';
+import 'package:spo/presentation/home/pages/home.dart';
+import 'package:spo/service_locator.dart';
+
 
 class SignupPage extends StatelessWidget {
   SignupPage({super.key});
