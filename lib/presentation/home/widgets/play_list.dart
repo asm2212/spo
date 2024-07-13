@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:spotify/common/helpers/is_dark_mode.dart';
-import 'package:spotify/core/configs/theme/app_colors.dart';
-import 'package:spotify/presentation/home/bloc/play_list_cubit.dart';
+import 'package:spo/common/helpers/is_dark_mode.dart';
+import 'package:spo/core/configs/theme/app_colors.dart';
+import 'package:spo/presentation/home/bloc/play_list_cubit.dart';
+
 
 import '../../../common/widgets/favorite_button/favorite_button.dart';
 import '../../../domain/entities/song/song.dart';
