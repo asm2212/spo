@@ -41,46 +41,46 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDwxQPdGbSiD5dcVGh88R23lGMImKCxtKs',
-    appId: '1:426509858399:web:4b4738cef4e35016264dea',
-    messagingSenderId: '426509858399',
-    projectId: 'spotify0101',
-    authDomain: 'spotify0101.firebaseapp.com',
-    storageBucket: 'spotify0101.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: ''
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAwAF_v-n8bHO0Nrf_x0VvqALRxIN436OM',
-    appId: '1:426509858399:android:a9f0dd91f4d88cb2264dea',
-    messagingSenderId: '426509858399',
-    projectId: 'spotify0101',
-    storageBucket: 'spotify0101.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBumD8nn8O9ISMsaxhBT-duBGi1YSZAsSk',
-    appId: '1:426509858399:ios:78d9d14dc192a583264dea',
-    messagingSenderId: '426509858399',
-    projectId: 'spotify0101',
-    storageBucket: 'spotify0101.appspot.com',
-    iosBundleId: 'com.example.spotify',
+    apiKey:"",
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBumD8nn8O9ISMsaxhBT-duBGi1YSZAsSk',
-    appId: '1:426509858399:ios:78d9d14dc192a583264dea',
-    messagingSenderId: '426509858399',
-    projectId: 'spotify0101',
-    storageBucket: 'spotify0101.appspot.com',
-    iosBundleId: 'com.example.spotify',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDwxQPdGbSiD5dcVGh88R23lGMImKCxtKs',
-    appId: '1:426509858399:web:7367e344006c4003264dea',
-    messagingSenderId: '426509858399',
-    projectId: 'spotify0101',
-    authDomain: 'spotify0101.firebaseapp.com',
-    storageBucket: 'spotify0101.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
   );
 }
