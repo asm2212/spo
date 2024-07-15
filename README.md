@@ -1,2 +1,2 @@
-# spo
-Clone Spotify App 
+# spo 
+player
